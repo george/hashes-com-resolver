@@ -11,7 +11,7 @@ result_cache = TTLCache(maxsize=10, ttl=30)
 
 
 class HashResolverConfig:
-    check_delay: int = 5
+    check_delay: float = 10.5
 
     proxy: str = ''
 
